@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31481" started-at="2020-08-14T05:00:07Z" finished-at="2020-08-14T05:00:38Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="7419" started-at="2020-08-14T05:00:07Z" finished-at="2020-08-14T05:00:14Z">
+      <class name="MyMaven.ABC.abcTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyMaven.ABC.abcTest@12843fce]" name="setup" is-config="true" duration-ms="5426" started-at="2020-08-14T10:30:07Z" finished-at="2020-08-14T10:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:MyMaven.ABC.abcTest@12843fce]" name="googleTest" duration-ms="1409" started-at="2020-08-14T10:30:12Z" finished-at="2020-08-14T10:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="wrapUp()[pri:0, instance:MyMaven.ABC.abcTest@12843fce]" name="wrapUp" is-config="true" duration-ms="531" started-at="2020-08-14T10:30:14Z" finished-at="2020-08-14T10:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+      </class> <!-- MyMaven.ABC.abcTest -->
+    </test> <!-- ChromeTest -->
+    <test name="IE" duration-ms="7871" started-at="2020-08-14T05:00:07Z" finished-at="2020-08-14T05:00:15Z">
+      <class name="MyMaven.ABC.abcTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MyMaven.ABC.abcTest@69d9c55]" name="setup" is-config="true" duration-ms="6018" started-at="2020-08-14T10:30:07Z" finished-at="2020-08-14T10:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:MyMaven.ABC.abcTest@69d9c55]" name="googleTest" duration-ms="1317" started-at="2020-08-14T10:30:13Z" finished-at="2020-08-14T10:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="wrapUp()[pri:0, instance:MyMaven.ABC.abcTest@69d9c55]" name="wrapUp" is-config="true" duration-ms="533" started-at="2020-08-14T10:30:14Z" finished-at="2020-08-14T10:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrapUp -->
+      </class> <!-- MyMaven.ABC.abcTest -->
+    </test> <!-- IE -->
+    <test name="Test" duration-ms="31481" started-at="2020-08-14T05:00:07Z" finished-at="2020-08-14T05:00:38Z">
+      <class name="MyMaven.ABC.xyzTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:MyMaven.ABC.xyzTest@2d3fcdbd]" name="setup" is-config="true" duration-ms="5645" started-at="2020-08-14T10:30:07Z" finished-at="2020-08-14T10:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:MyMaven.ABC.xyzTest@2d3fcdbd]" name="testParameterWithXML" duration-ms="25832" started-at="2020-08-14T10:30:13Z" finished-at="2020-08-14T10:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- MyMaven.ABC.xyzTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
