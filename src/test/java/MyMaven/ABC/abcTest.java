@@ -24,6 +24,11 @@ public class abcTest {
 		System.out.println(Title);
 	}
 	
+	@Test
+	public void  Even() {
+		System.out.println("this is demo test");
+	}
+	
 	@AfterTest
 	public void wrapUp()
 	{
