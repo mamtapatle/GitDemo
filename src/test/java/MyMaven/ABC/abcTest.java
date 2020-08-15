@@ -28,6 +28,14 @@ public class abcTest {
 	public void  Even() {
 		System.out.println("this is demo test");
 	}
+	@Test
+	public void  odd() {
+		System.out.println("this is demo test");
+	}
+	@Test
+	public void  get() {
+		System.out.println("this is demo test");
+	}
 	
 	@AfterTest
 	public void wrapUp()
